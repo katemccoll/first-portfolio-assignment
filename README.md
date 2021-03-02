@@ -37,6 +37,7 @@ Nav
 - Box on left hand side has no left margin. Enter Name here
 - Nav elements are underlined.
 - There is a Resume link here. We can either make a button at the bottom to say download resume, or we can do that in the link. Lets do second option as that makes more sense for this.
+- About Me, Work, Contact Me, Resume
 
 Hero
 - photo taking up full length.
@@ -70,6 +71,17 @@ Footer
 
 ## My sketch
 
+Will Load this soon.
 
 
-### 
+## Start
+
+I have created my index.html and style.css. For fun, I have chosen a different name (Sorry Learnatino, hard lesson to learn). Michael Collins, even though he is currently retired, is wanting to have a side hobby of being a web developer. Good on you, Mike!
+
+I have made my basic html page by writing '!' then enter. I have linked my stylesheet and changed the title of the web page to Mike Collins - Web Developer.
+
+I will just make the skeleton up, starting with the nav bar. Quickly, I know ideally you are meant to do mobile layout first. But because we have a desktop layout, I will make this first.
+
+In my CSS, i have used the root element to create my colour theme for the page.
+
+
