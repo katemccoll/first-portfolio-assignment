@@ -84,4 +84,12 @@ I will just make the skeleton up, starting with the nav bar. Quickly, I know ide
 
 In my CSS, i have used the root element to create my colour theme for the page.
 
+I have spent a fair bit of time playing around with the nav bar. I finally got the inner box to be on the edge of the page, but then my nav links hid behind it. I have changed my position from absolute to relative for now and will come back to this. 
+
+Next I will work on my hero image
+
+
+
+I decided instead of making boxes for each of the headers, pit would be easier just making one.
+
 
