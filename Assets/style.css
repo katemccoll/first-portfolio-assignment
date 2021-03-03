@@ -37,6 +37,7 @@ header {
 header h1 {
     padding-left: 50px;
     font-size: 2vw;
+    background-color: var(--teal);
     color: var(--dark-grey);
 }
   
@@ -46,9 +47,11 @@ nav ul {
     align-items: center;
     flex-wrap: wrap;
     padding-right: 0px;
+    height: 100%;
 }
 
 nav ul li {
+    display: inline;
     font-size: 1vw;
     padding: 10px 15px;
     margin-top: 5px;
@@ -94,19 +97,29 @@ nav a {
     position: relative;
     line-height: 1.5;
     padding: 4px 8px;
+    text-align: end;
 }
 
-.box .name {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.name {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
 }
 
+/*
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
 
 .column {
     flex: 1 0 80%;
@@ -114,22 +127,16 @@ nav a {
     display: grid;
     transition: flex-basis 500ms linear;
     grid-template-columns: 1fr repeat(3, 2fr); 
-    grid-template-rows: repeat(4, 1fr);
+    /*grid-template-rows: repeat(4, 1fr);*/
     margin-bottom: 1.5rem;
     gap: 20px 20px;
 }
 
-.heading {
+/* .heading {
     grid-row: 1/ span 4;
     font-size: 40px;
     padding-right: 20px;
     text-align: right;
-}
-
-.content {
-    padding-left: 10px;
-    grid-row: 2 / span 3;
-    grid-column: 2 / span 2;
 }
 
 article h2 {
@@ -140,7 +147,80 @@ article h2 {
     justify-content: space-between center;
     border-right: 2px solid var(--navy-grey);   
 }
-/* 
-article p {
+ */
+
+
+.heading {
+    display: flex;
+    align-items: right;
+    font-size: 40px;
+    text-align: right;
+}
+
+.content {
+    padding-left: 3%;
+    flex: 0 0 60%;
+    grid-column: 2 / span 3;
+    border-left: 2px solid var(--navy-grey);
     
-} */
+}
+
+
+.project_1 {
+    padding-left: 90%;
+    flex: 0 0 60%;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 6;
+    border-left: 2px solid var(--navy-grey);
+    background-size: cover;
+    border: 2px solid var(--teal);
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.work-container {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+footer {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--dark-grey);
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 0px;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 1vw;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: var(--teal);
+    padding: 5px 10px 5px;
+    text-decoration: none;
+    border-bottom: 2px solid var(--teal);
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main,
+    nav,
+    article {
+      flex-direction: column;
+    }
+}
