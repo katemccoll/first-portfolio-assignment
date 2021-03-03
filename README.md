@@ -90,6 +90,12 @@ Next I will work on my hero image
 
 
 
-I decided instead of making boxes for each of the headers, pit would be easier just making one.
+I decided instead of making boxes for each of the headers, I would be easier just making one.
+
+
+
+Next is the content. After a lot of googling and playing around, I ended up making a grid to complete the look. 
+I ended up making a class for both content and header, so i can reuse for next block of content.
+
 
 
