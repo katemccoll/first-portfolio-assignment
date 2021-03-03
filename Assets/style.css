@@ -93,6 +93,7 @@ nav a {
 
 section img {
     padding-bottom: 5px;
+    border: 2px solid var(--teal);
 }
 
 .box {
@@ -132,7 +133,7 @@ section img {
     grid-template-columns: 1fr repeat(3, 2fr); 
     /*grid-template-rows: repeat(4, 1fr);*/
     margin-bottom: 1.5rem;
-    gap: 20px 20px;
+    gap: 0px 20px;
 }
 
 /* .heading {
@@ -166,13 +167,23 @@ article h2 {
     
 }
 
-.content img {
+.large_image {
     border: 6px solid var(--teal);
     width: 100%;
     height: 600px;
     display: flex;
     object-position: top;
     object-fit: cover;
+}
+
+.small_image {
+    border: 6px solid var(--teal);
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+    object-position: top;
+    object-fit: cover;
+    
 }
 
 .project_1 {
@@ -196,13 +207,23 @@ article h2 {
 }
 
 .text-block {
-    position: absolute;
+    position: relative;
+    width: fit-content;
     bottom: 80px;
     background-color: var(--teal);
     color: var(--dark-grey);
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+    padding: 5px 20px;
+    line-height: 1.5;
+}
+
+.project {
+    /* border: 6px solid var(--teal);
+    width: 50%;
+    height: 200px; */
+    display: inline-flex;
+    object-position: center;
+    object-fit: cover;
+}
   
 footer {
     justify-content: space-between;
