@@ -91,6 +91,9 @@ nav a {
     padding-bottom: 15px;
 }
 
+section img {
+    padding-bottom: 5px;
+}
 
 .box {
     background-color: var(--teal);
@@ -163,10 +166,10 @@ article h2 {
     
 }
 
-img {
-    border: 2px solid var(--teal);
+.content img {
+    border: 6px solid var(--teal);
     width: 100%;
-    height: 400px;
+    height: 600px;
     display: flex;
     object-position: top;
     object-fit: cover;
@@ -185,12 +188,22 @@ img {
 
 .work-container {
     display: flex;
+    position: relative;
     align-items: flex-start;
     width: 90%;
     margin: 1% auto;
     grid-template-rows: repeat(10, 1fr);
 }
 
+.text-block {
+    position: absolute;
+    bottom: 80px;
+    background-color: var(--teal);
+    color: var(--dark-grey);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
 footer {
     justify-content: space-between;
     flex-wrap: wrap;
