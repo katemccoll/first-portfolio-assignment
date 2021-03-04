@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Mike Collins - Web Developer</title>
@@ -25,7 +27,7 @@
                     <a href="#contact_me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="http://google.com" target="_blank">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -44,10 +46,14 @@
             <div class="column">
                 <h2 id="about_me" class="heading">About Me</h2>
                 <p class="content">
+                    PLACEHOLDER TEXT BELOW. PLEASE WRITE SOMETHING ABOUT YOURSELF.
+                </p>
+                <p class="content">
                     I like space, space is my life. I went up to space and listened to two other men walk on the moon.
                     I am often forgotten. But no longer! I will become the best coder and I shall never be forgotten
                     again!
-
+                </p>
+                <p class="content">
                     I am now retired, but want something to keep me active. Web development is the way of the future and
                     I want to get on board!
                 </p>
@@ -57,31 +63,37 @@
             <div class="column">
                 <h2 id="work" class="heading">Work</h2>
                 <div class="content">
-                    <img class="large_image" alt="Image of Horiseon Website"
-                        src="./Assets/images/01-html-css-git-homework-demo.png">
-                    <div class="text-block">
-                        <h3>Debugging: Horiseon</h3>
-                        <p>HTML/CSS</p>
-                    </div>
+                    <a href="https://katemccoll.github.io/Week_1_Homework_Assignment/">
+                        <img class="large_image" alt="Image of Horiseon Website"
+                            src="./Assets/images/01-html-css-git-homework-demo.png" target="_blank">
+                        <div class="text-block">
+                            <h3>Debugging: Horiseon</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="content project">
                     <div class="leading-project">
                         <div>
-                            <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg">
-                            <div class="text-block">
-                                <h3>Placeholder</h3>
-                                <p>Image</p>
-                            </div>
+                            <a href="http://google.com">
+                                <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg" target="_blank">
+                                <div class="text-block">
+                                    <h3>Placeholder</h3>
+                                    <p>Image</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div>
                         <div>
-                            <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image">
-                            <div class="text-block">
-                                <h3>Placeholder</h3>
-                                <p>Image</p>
-                            </div>
+                            <a href="http://google.com">
+                                <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image" target="_blank">
+                                <div class="text-block">
+                                    <h3>Placeholder</h3>
+                                    <p>Image</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +102,7 @@
                     <div class="leading-project">
                         <div>
                             <a href="http://google.com">
-                                <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg">
+                                <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg" target="_blank">
                                 <div class="text-block">
                                     <h3>Placeholder</h3>
                                     <p>Image</p>
@@ -101,11 +113,13 @@
                     </div>
                     <div>
                         <div>
-                            <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image">
-                            <div class="text-block">
-                                <h3>Placeholder</h3>
-                                <p>Image</p>
-                            </div>
+                            <a href="http://google.com">
+                                <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image" target="_blank">
+                                <div class="text-block">
+                                    <h3>Placeholder</h3>
+                                    <p>Image</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -114,21 +128,27 @@
         </article>
     </main>
 
-    <footer>
-        <ul>
-            <li>
-                <h3 id="contact_me">Contact Me</h3>
-            </li>
-            <li>
-                <a href="#">someplace@gmail.com</a>
-            </li>
-            <li>
-                <a href="#">sampleName</a>
-            </li>
-            <li>
-                <a href="#">coming soon</a>
-            </li>
-        </ul>
+    <footer class="container">
+        <div class="column">
+            <h2 id="contact_me" class="heading">Contact Me</h3>
+                <ul class="content">
+                    <li>
+                        <a href="#">Phone</a>
+                    </li>
+                    <li>
+                        <a href="#">Website</a>
+                    </li>
+                    <li>
+                        <a href="#">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Spotify</a>
+                    </li>
+                </ul>
+        </div>
 
     </footer>
 
