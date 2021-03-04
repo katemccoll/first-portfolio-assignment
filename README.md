@@ -23,12 +23,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
-![Mock-up](Assets\images\02-advanced-css-homework-demo.gif)
+<img src="Assets\images\02-advanced-css-homework-demo.gif">
 
 
 ### Screenshots
 
-![Mock-up-Top](Assets\images\mock-up-2.PNG)
+<img src="Assets\images\mock-up-2.PNG">
 
 Notes:
 
@@ -49,7 +49,7 @@ About me
 - we could add the photo here, when you hover over it it could say 'about me'
 
 
-![Mock-up-Mid](Assets\images\Mock-up-1.PNG)
+<img src="Assets\images\Mock-up-1.PNG">
 
 Work
 - Once again, side bar has heading work.
@@ -59,7 +59,7 @@ Work
 - When you hover over, the photo becomes clear.
 - One large photo, 4 small ones.
 
-![Mock-up-End](Assets\images\Mock-up-3.PNG)
+<img src="Assets\images\Mock-up-3.PNG">
 
 Contact Me
 - Heading in sidebar with line in the middle
