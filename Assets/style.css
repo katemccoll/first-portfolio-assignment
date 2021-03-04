@@ -94,7 +94,7 @@ nav a:hover {
     padding-bottom: 15px;
 }
 
-section img {
+#profile {
     margin-bottom: 5px;
     border: 2px solid var(--teal);
 }

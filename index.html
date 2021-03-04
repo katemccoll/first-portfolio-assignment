@@ -27,6 +27,7 @@
                     <a href="#contact_me">Contact Me</a>
                 </li>
                 <li>
+                    <!-- Placeholder for Resume -->
                     <a href="http://google.com" target="_blank">Resume</a>
                 </li>
             </ul>
@@ -36,14 +37,16 @@
     <!-- Hero Image -->
     <section class="hero-image">
         <div class="hero-text">
-            <img src="./Assets/images/Mike.jpg" alt="Michael Collins">
+            <img src="./Assets/images/Mike.jpg" alt="Michael Collins" id="profile">
             <h2 class="box">A Cool Web Developer!</h2>
         </div>
     </section>
 
     <main>
+
+        <!-- About Me -->
         <article class="container">
-            <div class="column">
+            <section class="column">
                 <h2 id="about_me" class="heading">About Me</h2>
                 <p class="content">
                     PLACEHOLDER TEXT BELOW. PLEASE WRITE SOMETHING ABOUT YOURSELF.
@@ -57,12 +60,15 @@
                     I am now retired, but want something to keep me active. Web development is the way of the future and
                     I want to get on board!
                 </p>
-            </div>
+            </section>
         </article>
+
+        <!-- Work -->
         <article class="work-container">
-            <div class="column">
+            <section class="column">
                 <h2 id="work" class="heading">Work</h2>
-                <div class="content">
+                <!-- Large Image Project 1 -->
+                <article class="content">
                     <a href="https://katemccoll.github.io/Week_1_Homework_Assignment/">
                         <img class="large_image" alt="Image of Horiseon Website"
                             src="./Assets/images/01-html-css-git-homework-demo.png" target="_blank">
@@ -71,10 +77,11 @@
                             <p>HTML/CSS</p>
                         </div>
                     </a>
-                </div>
-
-                <div class="content project">
-                    <div class="leading-project">
+                </article>
+                <!-- Small Images Inline -->
+                <section class="content project">
+                    <!-- Project 2 -->
+                    <article class="leading-project">
                         <div>
                             <a href="http://google.com">
                                 <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg" target="_blank">
@@ -84,8 +91,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div>
+                    </article>
+                    <!-- Project 3 -->
+                    <article>
                         <div>
                             <a href="http://google.com">
                                 <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image" target="_blank">
@@ -95,11 +103,12 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                </div>
-
-                <div class="content project">
-                    <div class="leading-project">
+                    </article>
+                </section>
+                <!-- Small Images Inline -->
+                <section class="content project">
+                    <!-- Project 4 -->
+                    <article class="leading-project">
                         <div>
                             <a href="http://google.com">
                                 <img class="small_image" alt="lego" src="./Assets/images/lego.jpeg" target="_blank">
@@ -110,8 +119,9 @@
                             </a>
 
                         </div>
-                    </div>
-                    <div>
+                    </article>
+                    <!-- Project 5 -->
+                    <article>
                         <div>
                             <a href="http://google.com">
                                 <img alt="lego" src="./Assets/images/lego.jpeg" class="small_image" target="_blank">
@@ -121,13 +131,15 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                </section>
 
-            </div>
+            </section>
         </article>
     </main>
 
+
+    <!-- Contact Me -->
     <footer class="container">
         <div class="column">
             <h2 id="contact_me" class="heading">Contact Me</h3>
