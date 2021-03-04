@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 section img {
-    padding-bottom: 5px;
+    margin-bottom: 5px;
     border: 2px solid var(--teal);
 }
 
@@ -264,6 +264,11 @@ footer a {
         font-size: 10vw;
     }
 
+    .name {
+        text-align: center;
+        width: 100%;
+    }
+
     header {
         justify-content: center;
         align-items: center;
@@ -281,6 +286,10 @@ footer a {
     
     .heading {
         text-align: left;
+    }
+
+    .hero-image {
+        justify-content: center;
     }
 
     .column {
